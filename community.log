@@ -1,0 +1,9 @@
+2023-03-02T17:33:56.204+08:00  INFO 30769 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 17.0.4 with PID 30769 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-02T17:33:56.206+08:00 DEBUG 30769 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-03-02T17:33:56.207+08:00  INFO 30769 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to 1 default profile: "default"
+2023-03-02T17:33:58.000+08:00  INFO 30769 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-02T17:33:58.261+08:00  INFO 30769 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 2.48 seconds (process running for 3.673)
+2023-03-02T17:33:58.777+08:00 DEBUG 30769 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2023-03-02T17:33:58.778+08:00  INFO 30769 --- [main] com.nowcoder.community.LoggerTests       : info log
+2023-03-02T17:33:58.778+08:00  WARN 30769 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2023-03-02T17:33:58.778+08:00 ERROR 30769 --- [main] com.nowcoder.community.LoggerTests       : error log
