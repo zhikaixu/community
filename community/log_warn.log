@@ -1,1 +1,4 @@
-2023-03-02 17:44:56,271 WARN [main] c.n.c.LoggerTests [LoggerTests.java:23] warn log
+2023-03-06 17:10:02,528 WARN [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:62] Unable to start LiveReload server
+2023-03-06 17:10:02,557 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-03-06 17:27:11,592 WARN [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:62] Unable to start LiveReload server
+2023-03-06 17:27:11,615 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:592] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
