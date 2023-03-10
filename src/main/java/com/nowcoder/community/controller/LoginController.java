@@ -142,4 +142,10 @@ public class LoginController implements CommunityConstant {
         return "redirect:/login"; // 重定向默认到get方法页面
     }
 
+    // 忘记密码
+    @RequestMapping(path = "/forget", method = RequestMethod.GET)
+    public String forget() {
+        return "/site/forget";
+    }
+
 }
