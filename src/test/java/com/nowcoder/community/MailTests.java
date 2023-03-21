@@ -38,4 +38,9 @@ public class MailTests {
         mailClient.sendMail("3180111125@zju.edu.cn", "HTML", content);
     }
 
+    @Test
+    public void testForgetMail() {
+
+    }
+
 }

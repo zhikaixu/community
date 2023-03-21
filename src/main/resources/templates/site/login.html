@@ -81,7 +81,7 @@
 							<input type="password" th:class="|form-control ${passwordMsg!=null?'is-invalid':''}|"
 								   th:value="${param.password}"
 								   id="password" name="password" placeholder="请输入您的密码!" required>
-							<div class="invalid-feedback">
+							<div class="invalid-feedback" th:text="${passwordMsg}">
 								密码长度不能小于8位!
 							</div>							
 						</div>

@@ -1,5 +1,6 @@
 package com.nowcoder.community.service;
 
+import com.google.code.kaptcha.Producer;
 import com.nowcoder.community.dao.LoginTicketMapper;
 import com.nowcoder.community.dao.UserMapper;
 import com.nowcoder.community.entity.LoginTicket;
@@ -33,6 +34,9 @@ public class UserService implements CommunityConstant {
 
     @Autowired
     private LoginTicketMapper loginTicketMapper;
+
+    @Autowired
+    private Producer kaptchaProducer;
 
     // 从application.properties配置文件注入域名
     @Value("${community.path.domain}")
@@ -143,7 +147,7 @@ public class UserService implements CommunityConstant {
 
         // 验证密码
         password = CommunityUtil.md5(password + user.getSalt());
-        if (user.getPassword().equals(password)) {
+        if (!user.getPassword().equals(password)) {
             map.put("passwordMsg", "密码不正确!");
             return map;
         }
@@ -162,6 +166,69 @@ public class UserService implements CommunityConstant {
 
     public void logout(String ticket) {
         loginTicketMapper.updateStatus(ticket, 1);
+    }
+
+    public LoginTicket findLoginTicket(String ticket) {
+        return loginTicketMapper.selectByTicket(ticket);
+    }
+
+    public int updateHeader(int userId, String headerUrl) {
+        return userMapper.updateHeader(userId, headerUrl);
+    }
+
+    public int updatePassword(int userId, String newPassword) {
+        User user = userMapper.selectById(userId);
+        newPassword = CommunityUtil.md5(newPassword + user.getSalt());
+        return userMapper.updatePassword(userId, newPassword);
+    }
+
+    public boolean verifyPassword(int userId, String oldPassword) {
+        User user = userMapper.selectById(userId);
+        oldPassword = CommunityUtil.md5(oldPassword + user.getSalt());
+        return user.getPassword().equals(oldPassword);
+    }
+
+
+    public Map<String, Object> getEmailCode(String email) {
+        Map<String, Object> map = new HashMap<>();
+        User u = userMapper.selectByEmail(email);
+        if (u == null) {
+            map.put("emailMsg", "该邮箱未注册!");
+            return map;
+        }
+
+        // 服务器生成验证码
+        String captcha = kaptchaProducer.createText();
+
+        // 服务器发邮件
+        Context context = new Context();
+        context.setVariable("email", u.getEmail());
+        context.setVariable("captcha", captcha);
+        String content = templateEngine.process("/mail/forget", context);
+        mailClient.sendMail(u.getEmail(), "忘记密码", content);
+
+        map.put("user", u);
+        map.put("captcha", captcha);
+        map.put("expiredTime", System.currentTimeMillis() + 1000 * 5 * 60);
+        System.out.println(map.get("captcha"));
+        return map;
+    }
+
+    public Map<String, Object> resetForgetPassword(String email, String captcha, String newPassword) {
+        Map<String, Object> map = new HashMap<>();
+        if (StringUtils.isBlank(captcha)) {
+            map.put("captchaMsg", "验证码不能为空！");
+            return map;
+        }
+        if (StringUtils.isBlank(newPassword)) {
+            map.put("newPasswordMsg", "新密码不能为空！");
+            return map;
+        }
+        int userId = userMapper.selectByEmail(email).getId();
+        map.put("userId", userId);
+        map.put("captcha", captcha);
+        map.put("newPassword", newPassword);
+        return map;
     }
 
 }

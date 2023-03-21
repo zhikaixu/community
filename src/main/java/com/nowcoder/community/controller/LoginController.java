@@ -3,6 +3,7 @@ package com.nowcoder.community.controller;
 import com.google.code.kaptcha.Producer;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityConstant;
+import com.nowcoder.community.util.CommunityUtil;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
@@ -12,10 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CookieValue;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import com.nowcoder.community.entity.User;
 import org.springframework.ui.Model;
 
@@ -23,6 +21,7 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.Date;
 import java.util.Map;
 
 
@@ -142,10 +141,58 @@ public class LoginController implements CommunityConstant {
         return "redirect:/login"; // 重定向默认到get方法页面
     }
 
-    // 忘记密码
+    // 打开忘记密码页面
     @RequestMapping(path = "/forget", method = RequestMethod.GET)
-    public String forget() {
+    public String getForgetPage() {
         return "/site/forget";
+    }
+
+    // 点击获取验证码
+    @RequestMapping(path = "/forget/getEmailCode", method = RequestMethod.GET)
+    @ResponseBody
+    public String getEmailCode(String email, HttpSession session) {
+        Map<String, Object> map = userService.getEmailCode(email);
+        if (map.containsKey("emailMsg")) {
+            return CommunityUtil.getJSONString(1, (String) map.get("emailMsg"));
+        } else {
+            // captcha和expiredTime存入session
+            String captcha = (String) map.get("captcha");
+            Long expiredTime = (Long) map.get("expiredTime");
+            session.setAttribute("captcha", captcha);
+            session.setAttribute("expiredTime", expiredTime);
+        }
+        return CommunityUtil.getJSONString(0);
+    }
+
+    @RequestMapping(path = "/forget", method = RequestMethod.POST)
+    public String resetForgetPassword(String email, String captcha, String newPassword, HttpSession session, Model model) {
+        Map<String, Object> map = userService.resetForgetPassword(email, captcha, newPassword);
+        if (map.containsKey("captchaMsg")) {
+            model.addAttribute("captchaMsg", map.get("captchaMsg"));
+            return "/site/forget";
+        }
+        if (map.containsKey("newPasswordMsg")) {
+            model.addAttribute("newPasswordMsg", map.get("newPasswordMsg"));
+            return "/site/forget";
+        }
+        Long expiredTime = (Long) session.getAttribute("expiredTime");
+        Long currentTime = new Date(System.currentTimeMillis()).getTime();
+        String realCaptcha = (String) session.getAttribute("captcha");
+        String userCaptcha = (String) map.get("captcha");
+        if (currentTime > expiredTime) {
+            model.addAttribute("captchaMsg", "验证码超时，请重新获取！");
+            return "/site/forget";
+        }
+        if (!userCaptcha.equalsIgnoreCase(realCaptcha)) {
+            model.addAttribute("captchaMsg", "验证码错误！");
+            return "/site/forget";
+        } else {
+            int userId = (int) map.get("userId");
+            userService.updatePassword(userId, newPassword);
+            model.addAttribute("msg", "密码修改成功！");
+            model.addAttribute("target", "/login");
+            return "/site/operate-result";
+        }
     }
 
 }

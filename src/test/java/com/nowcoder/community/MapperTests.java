@@ -6,12 +6,15 @@ import com.nowcoder.community.dao.UserMapper;
 import com.nowcoder.community.entity.DiscussPost;
 import com.nowcoder.community.entity.LoginTicket;
 import com.nowcoder.community.entity.User;
+import com.nowcoder.community.service.UserService;
+import com.nowcoder.community.util.CommunityUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
+
 
 import java.util.Date;
 import java.util.List;
@@ -28,6 +31,9 @@ public class MapperTests {
 
     @Autowired
     private LoginTicketMapper loginTicketMapper;
+
+    @Autowired
+    private UserService userService;
 
     @Test
     public void testSelectUser() {
@@ -96,6 +102,21 @@ public class MapperTests {
         loginTicketMapper.updateStatus("abc", 1);
         loginTicket = loginTicketMapper.selectByTicket("abc");
         System.out.println(loginTicket);
+    }
+
+    @Test
+    public void testPassword() {
+        User user = userMapper.selectByName("xixi3");
+        System.out.println(user.getId());
+        System.out.println(user.getPassword());
+//        System.out.println(CommunityUtil.md5("zhikaixu"));
+//        System.out.println(CommunityUtil.md5("1234567890"));
+        userService.updatePassword(153, "xuzhikai");
+        user = userMapper.selectByName("xixi3");
+//        System.out.println(user.getId());
+//        System.out.println(user.getPassword());
+        System.out.println(CommunityUtil.md5("daidaidai" + user.getSalt()));
+
     }
 
 
