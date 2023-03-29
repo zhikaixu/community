@@ -1,11 +1,10 @@
 package com.nowcoder.community.util;
 
+import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
-
-import org.json.JSONObject;
 import org.springframework.util.DigestUtils;
 
-
+import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
@@ -26,6 +25,10 @@ public class CommunityUtil {
         return DigestUtils.md5DigestAsHex(key.getBytes());
     }
 
+    // 将服务器返回给浏览器的Json数据整合起来：
+    // 1. 编码（必须有）
+    // 2. 提示信息
+    // 3. 业务数据
     public static String getJSONString(int code, String msg, Map<String, Object> map){
         JSONObject json = new JSONObject();
         json.put("code", code);
@@ -38,12 +41,22 @@ public class CommunityUtil {
         return json.toString();
     }
 
+    // 可能没有业务数据
     public static String getJSONString(int code, String msg){
         return getJSONString(code, msg, null);
     }
 
+    // 可能没有提示信息和业务数据
     public static String getJSONString(int code){
         return getJSONString(code, null, null);
     }
+
+    // 利用main方法来测试
+//    public static void main(String[] args) {
+//        Map<String, Object> map = new HashMap<>();
+//        map.put("name", "zhangsan");
+//        map.put("age", 25);
+//        System.out.println(getJSONString(0, "ok", map));
+//    }
 
 }

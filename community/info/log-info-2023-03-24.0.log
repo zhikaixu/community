@@ -1,0 +1,26 @@
+2023-03-24 12:27:15,010 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 4764 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-24 12:27:15,019 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-24 12:27:16,901 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-24 12:27:17,108 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.907 seconds (process running for 4.317)
+2023-03-24 12:27:21,251 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:51] Starting TransactionTests using Java 17.0.4 with PID 4781 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-24 12:27:21,255 INFO [main] c.n.c.TransactionTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-24 12:27:23,089 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-24 12:27:23,292 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:57] Started TransactionTests in 2.583 seconds (process running for 3.876)
+2023-03-24 12:27:23,734 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-24 12:27:23,962 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79cdf2d4
+2023-03-24 12:27:23,965 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-24 12:27:24,096 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-03-24 12:27:24,110 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-03-24 12:38:15,324 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 5160 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-24 12:38:15,328 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-24 12:38:17,173 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-24 12:38:17,361 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.57 seconds (process running for 3.593)
+2023-03-24 12:38:21,911 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:51] Starting TransactionTests using Java 17.0.4 with PID 5173 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-24 12:38:21,914 INFO [main] c.n.c.TransactionTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-24 12:38:23,810 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-24 12:38:23,985 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:57] Started TransactionTests in 2.651 seconds (process running for 3.648)
+2023-03-24 12:38:24,378 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-24 12:38:24,563 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c77344f
+2023-03-24 12:38:24,565 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-24 12:38:24,678 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-03-24 12:38:24,692 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

@@ -1,0 +1,171 @@
+2023-03-22 10:58:12,558 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 53021 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 10:58:12,562 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 10:58:14,689 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 10:58:14,912 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.916 seconds (process running for 4.062)
+2023-03-22 10:58:20,299 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:51] Starting CommunityApplication using Java 17.0.4 with PID 53039 (/Users/zhikaixu/Desktop/nowcoder/community/target/classes started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 10:58:20,302 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 10:58:20,353 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-22 10:58:20,354 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-22 10:58:21,609 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-22 10:58:21,620 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-22 10:58:21,621 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-22 10:58:21,621 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-22 10:58:21,680 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-22 10:58:21,680 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 1325 ms
+2023-03-22 10:58:22,241 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 10:58:22,418 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-03-22 10:58:22,435 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-22 10:58:22,458 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-22 10:58:22,474 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:57] Started CommunityApplication in 2.871 seconds (process running for 4.858)
+2023-03-22 12:16:48,901 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55428 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:16:48,903 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:16:50,767 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:16:50,966 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.599 seconds (process running for 3.67)
+2023-03-22 12:17:24,204 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55482 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:17:24,206 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:17:25,764 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:17:25,946 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.177 seconds (process running for 3.11)
+2023-03-22 12:18:00,420 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55519 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:18:00,422 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:18:02,106 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:18:02,295 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.328 seconds (process running for 3.234)
+2023-03-22 12:18:05,041 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 55527 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:18:05,043 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:18:06,744 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:18:06,964 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.391 seconds (process running for 3.346)
+2023-03-22 12:18:20,577 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55535 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:18:20,580 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:18:21,996 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:18:22,163 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 1.996 seconds (process running for 2.842)
+2023-03-22 12:18:24,770 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 55540 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:18:24,772 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:18:26,434 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:18:26,622 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.287 seconds (process running for 3.157)
+2023-03-22 12:20:01,009 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55629 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:20:01,012 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:20:02,711 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:20:02,917 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.384 seconds (process running for 3.323)
+2023-03-22 12:20:13,845 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55643 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:20:13,847 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:20:15,568 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:20:15,785 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.429 seconds (process running for 3.367)
+2023-03-22 12:20:18,898 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 55651 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:20:18,900 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:20:20,741 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:20:20,957 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.501 seconds (process running for 3.467)
+2023-03-22 12:21:30,613 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55693 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:21:30,615 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:21:32,344 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:21:32,540 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.452 seconds (process running for 3.37)
+2023-03-22 12:21:35,187 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 55708 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:21:35,196 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:21:36,949 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:21:37,163 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.448 seconds (process running for 3.196)
+2023-03-22 12:21:48,674 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55720 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:21:48,676 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:21:50,421 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:21:50,644 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.432 seconds (process running for 3.266)
+2023-03-22 12:21:53,953 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 55731 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:21:53,955 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:21:56,271 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:21:56,561 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 3.162 seconds (process running for 4.269)
+2023-03-22 12:27:34,895 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 55888 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:27:34,898 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:27:36,633 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:27:36,842 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.392 seconds (process running for 3.209)
+2023-03-22 12:27:40,469 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 55900 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:27:40,472 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:27:42,849 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:27:43,120 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 3.434 seconds (process running for 4.446)
+2023-03-22 12:29:59,872 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56008 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:29:59,875 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:30:01,650 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:30:01,853 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.487 seconds (process running for 3.39)
+2023-03-22 12:30:11,307 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56029 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:30:11,309 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:30:13,045 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:30:13,260 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.487 seconds (process running for 3.389)
+2023-03-22 12:30:15,945 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56037 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:30:15,948 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:30:17,739 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:30:17,948 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.464 seconds (process running for 3.217)
+2023-03-22 12:32:46,920 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56113 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:32:46,922 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:32:48,571 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:32:48,776 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.303 seconds (process running for 3.109)
+2023-03-22 12:32:51,518 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56126 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:32:51,521 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:32:53,281 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:32:53,477 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.456 seconds (process running for 3.232)
+2023-03-22 12:35:15,470 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56201 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:35:15,473 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:35:17,094 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:35:17,288 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.267 seconds (process running for 3.079)
+2023-03-22 12:35:20,674 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56213 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:35:20,676 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:35:22,828 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:35:23,071 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.962 seconds (process running for 4.19)
+2023-03-22 12:38:01,946 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56298 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:38:01,949 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:38:03,858 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:38:04,058 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.779 seconds (process running for 3.646)
+2023-03-22 12:38:07,456 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56311 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:38:07,459 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:38:09,515 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:38:09,754 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.978 seconds (process running for 4.016)
+2023-03-22 12:39:58,568 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56364 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:39:58,570 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:40:00,199 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:40:00,396 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.301 seconds (process running for 3.127)
+2023-03-22 12:40:03,687 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56380 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:40:03,690 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:40:05,750 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:40:05,978 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.998 seconds (process running for 4.072)
+2023-03-22 12:42:47,622 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56461 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:42:47,625 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:42:49,287 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:42:49,541 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.36 seconds (process running for 3.166)
+2023-03-22 12:42:53,108 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56470 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:42:53,112 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:42:55,179 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:42:55,423 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.987 seconds (process running for 4.109)
+2023-03-22 12:47:33,214 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56635 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:47:33,216 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:47:34,703 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:47:34,902 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.142 seconds (process running for 2.971)
+2023-03-22 12:47:38,068 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56644 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:47:38,071 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:47:39,774 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:47:39,973 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.378 seconds (process running for 3.246)
+2023-03-22 12:48:08,813 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56670 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:48:08,815 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:48:10,514 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:48:10,737 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.474 seconds (process running for 3.416)
+2023-03-22 12:48:13,426 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56682 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:48:13,428 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:48:15,228 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:48:15,433 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.454 seconds (process running for 3.253)
+2023-03-22 12:48:46,091 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 56701 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:48:46,092 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:48:47,723 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:48:47,926 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.316 seconds (process running for 3.134)
+2023-03-22 12:48:51,057 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 56713 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 12:48:51,059 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 12:48:53,096 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 12:48:53,336 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.828 seconds (process running for 3.865)
+2023-03-22 13:04:33,703 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 57173 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 13:04:33,706 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 13:04:35,222 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 13:04:35,399 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.152 seconds (process running for 3.003)
+2023-03-22 13:04:38,543 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 57182 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 13:04:38,545 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 13:04:40,368 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 13:04:40,571 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.608 seconds (process running for 3.437)
+2023-03-22 13:05:14,262 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 57205 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 13:05:14,264 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 13:05:15,817 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 13:05:16,000 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 2.149 seconds (process running for 2.974)
+2023-03-22 13:05:18,578 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:51] Starting SensitiveTests using Java 17.0.4 with PID 57224 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-03-22 13:05:18,580 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 13:05:20,386 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
+2023-03-22 13:05:20,581 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:57] Started SensitiveTests in 2.467 seconds (process running for 3.239)
