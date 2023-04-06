@@ -33,6 +33,7 @@ public class MessageController {
     // 私信列表
     @RequestMapping(path = "/letter/list", method = RequestMethod.GET)
     public String getLetterList(Model model, Page page) {
+
         User user = hostHolder.getUser();
         // 分页信息
         page.setLimit(5);
@@ -58,7 +59,7 @@ public class MessageController {
         // 查询未读消息数量
         int letterUnreadCount = messageService.findLetterUnreadCount(user.getId(), null);
         model.addAttribute("letterUnreadCount", letterUnreadCount);
-
+//        Integer.valueOf("abc"); // 会报错
         return "/site/letter";
     }
 
@@ -124,6 +125,7 @@ public class MessageController {
     // 异步请求，返回JSON数据
     @ResponseBody
     public String sendLetter(String toName, String content) {
+//        Integer.valueOf("abc"); // 会报错
         User target = userService.findUserByName(toName);
         if (target == null) {
             return CommunityUtil.getJSONString(1, "目标用户不存在");

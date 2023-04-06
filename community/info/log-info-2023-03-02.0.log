@@ -1,5 +1,0 @@
-2023-03-02 17:44:53,303 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:51] Starting LoggerTests using Java 17.0.4 with PID 31181 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
-2023-03-02 17:44:53,306 INFO [main] c.n.c.LoggerTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
-2023-03-02 17:44:55,419 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:56] Adding welcome page template: index
-2023-03-02 17:44:55,693 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:57] Started LoggerTests in 2.956 seconds (process running for 4.256)
-2023-03-02 17:44:56,271 INFO [main] c.n.c.LoggerTests [LoggerTests.java:22] info log

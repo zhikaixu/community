@@ -46,4 +46,16 @@ public class HomeController {
         return "/index";
     }
 
+//    @ResponseBody
+//    @RequestMapping("/test")
+//    public String test() {
+//        Integer.parseInt("abc");
+//        return "123";
+//    }
+
+    @RequestMapping(path = "/error", method = RequestMethod.GET)
+    public String getErrorPage() {
+        return "/error/500";
+    }
+
 }
