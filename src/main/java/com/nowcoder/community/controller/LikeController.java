@@ -26,13 +26,13 @@ public class LikeController {
     // 异步请求
     @RequestMapping(path = "/like", method = RequestMethod.POST)
     @ResponseBody
-    public String like(int entityType, int entityId) {
+    public String like(int entityType, int entityId, int entityUserId) {
         User user = hostHolder.getUser();
 
         // 可以用拦截器判断用户是否已经登录
 
         // 点赞
-        likeService.like(user.getId(), entityType, entityId);
+        likeService.like(user.getId(), entityType, entityId, entityUserId);
         // 数量
         long likeCount = likeService.findEntityLikeCount(entityType, entityId);
         // 状态
