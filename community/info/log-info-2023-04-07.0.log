@@ -1,0 +1,108 @@
+2023-04-07 19:41:19,005 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 36621 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:41:19,012 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:41:19,864 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:41:19,869 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:41:19,899 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:41:22,321 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.892 seconds (process running for 5.132)
+2023-04-07 19:41:27,235 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 36638 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:41:27,238 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:41:28,146 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:41:28,149 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:41:28,190 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:41:30,704 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.972 seconds (process running for 5.555)
+2023-04-07 19:44:21,009 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 36759 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:44:21,013 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:44:21,769 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:44:21,772 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:44:21,822 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:44:23,984 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.419 seconds (process running for 4.341)
+2023-04-07 19:44:27,364 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 36770 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:44:27,367 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:44:28,131 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:44:28,134 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:44:28,169 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:44:30,356 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.502 seconds (process running for 4.374)
+2023-04-07 19:47:10,606 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 36871 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:47:10,611 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:47:11,372 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:47:11,375 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:47:11,425 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:47:13,494 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.322 seconds (process running for 4.277)
+2023-04-07 19:47:17,120 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 36880 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:47:17,122 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:47:17,946 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:47:17,950 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:47:17,986 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:47:20,276 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.725 seconds (process running for 4.737)
+2023-04-07 19:50:34,119 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 36988 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:50:34,121 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:50:34,838 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:50:34,841 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:50:34,885 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:50:36,887 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.214 seconds (process running for 4.155)
+2023-04-07 19:50:40,048 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 37002 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:50:40,052 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:50:40,948 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:50:40,953 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:50:40,987 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:50:43,243 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.707 seconds (process running for 4.703)
+2023-04-07 19:52:55,351 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 37078 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:52:55,354 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:52:56,026 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:52:56,028 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:52:56,062 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:52:58,043 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.116 seconds (process running for 4.031)
+2023-04-07 19:53:01,169 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 37087 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:53:01,172 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:53:01,970 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:53:01,974 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:53:02,008 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:53:04,152 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.484 seconds (process running for 4.414)
+2023-04-07 19:56:39,032 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 37196 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:56:39,035 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:56:39,758 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:56:39,761 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:56:39,798 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:56:42,298 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.707 seconds (process running for 4.636)
+2023-04-07 19:56:46,268 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 37211 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:56:46,274 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:56:47,179 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:56:47,182 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:56:47,219 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:56:49,595 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.91 seconds (process running for 4.971)
+2023-04-07 19:59:41,925 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 37306 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:59:41,929 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:59:42,719 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:59:42,722 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:59:42,759 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:59:44,781 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.335 seconds (process running for 4.313)
+2023-04-07 19:59:48,049 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 37317 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 19:59:48,053 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 19:59:48,887 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 19:59:48,890 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 19:59:48,924 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-04-07 19:59:51,157 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.58 seconds (process running for 4.712)
+2023-04-07 20:04:03,484 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 37460 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 20:04:03,487 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 20:04:04,168 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 20:04:04,171 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 20:04:04,206 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-04-07 20:04:06,106 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.02 seconds (process running for 3.877)
+2023-04-07 20:04:09,078 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 37471 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 20:04:09,080 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 20:04:09,814 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 20:04:09,819 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 20:04:09,856 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-04-07 20:04:12,199 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.605 seconds (process running for 4.473)
+2023-04-07 20:17:08,572 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:51] Starting CommunityApplicationTests using Java 17.0.4 with PID 37872 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 20:17:08,575 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 20:17:09,401 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 20:17:09,403 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 20:17:09,434 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-04-07 20:17:11,679 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:57] Started CommunityApplicationTests in 3.606 seconds (process running for 4.671)
+2023-04-07 20:17:14,991 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:51] Starting RedisTests using Java 17.0.4 with PID 37891 (started by zhikaixu in /Users/zhikaixu/Desktop/nowcoder/community)
+2023-04-07 20:17:14,994 INFO [main] c.n.c.RedisTests [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 20:17:15,817 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:291] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-07 20:17:15,821 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-07 20:17:15,854 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-04-07 20:17:17,936 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:57] Started RedisTests in 3.429 seconds (process running for 4.546)
