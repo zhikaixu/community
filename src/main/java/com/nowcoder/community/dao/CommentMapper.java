@@ -14,4 +14,8 @@ public interface CommentMapper {
 
     int insertComment(Comment comment);
 
+    List<Comment> selectCommentsByUserId(int userId, int entityType, int offset, int limit);
+
+    int selectRepliedCommentCountByUserId(int userId, int entityType);
+
 }
