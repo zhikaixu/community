@@ -18,4 +18,6 @@ public interface CommentMapper {
 
     int selectRepliedCommentCountByUserId(int userId, int entityType);
 
+    Comment selectCommentById(int id);
+
 }
