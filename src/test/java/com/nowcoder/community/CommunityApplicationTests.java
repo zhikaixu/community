@@ -2,7 +2,8 @@ package com.nowcoder.community;
 
 import com.nowcoder.community.dao.AlphaDao;
 import com.nowcoder.community.service.AlphaService;
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,7 @@ import java.util.Date;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ContextConfiguration(classes = CommunityApplication.class) // 测试时启用某个配置类
-class CommunityApplicationTests implements ApplicationContextAware { // 让这个类得到Spring容器
+public class CommunityApplicationTests implements ApplicationContextAware { // 让这个类得到Spring容器
 
 	private ApplicationContext applicationContext; // 暂存Spring容器
 	@Override

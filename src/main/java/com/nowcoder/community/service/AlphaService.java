@@ -6,8 +6,8 @@ import com.nowcoder.community.dao.UserMapper;
 import com.nowcoder.community.entity.DiscussPost;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.util.CommunityUtil;
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
@@ -83,7 +83,7 @@ public class AlphaService {
         post.setCreateTime(new Date());
         discussPostMapper.insertDiscussPost(post);
 
-        Integer.valueOf("abc"); // 这里会报错，需要回滚
+//        Integer.valueOf("abc"); // 这里会报错，需要回滚
 
         return "ok";
     }
@@ -114,7 +114,7 @@ public class AlphaService {
                 post.setCreateTime(new Date());
                 discussPostMapper.insertDiscussPost(post);
 
-                Integer.valueOf("abc"); // 这里会报错，需要回滚
+//                Integer.valueOf("abc"); // 这里会报错，需要回滚
 
                 return "ok";
             }

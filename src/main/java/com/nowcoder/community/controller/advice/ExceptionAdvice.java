@@ -7,8 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import jakarta.servlet.http.HttpServletRequest; // spring 3.0
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletRequest; // spring 3.0
+import javax.servlet.http.HttpServletResponse;
 //import javax.servlet.http.HttpServletRequest; // spring 2.0用的是这个包
 //import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
