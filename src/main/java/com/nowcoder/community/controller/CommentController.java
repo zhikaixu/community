@@ -33,6 +33,7 @@ public class CommentController implements CommunityConstant {
 
     @RequestMapping(path = "/add/{discussPostId}", method = RequestMethod.POST)
     public String addComment(@PathVariable("discussPostId") int discussPostId, Comment comment) {
+        System.out.println(discussPostId);
         comment.setUserId(hostHolder.getUser().getId()); // 如果用户没登录会报错，后面会做统一处理
         comment.setStatus(0);
         comment.setCreateTime(new Date());
