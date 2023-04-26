@@ -151,5 +151,10 @@ public class MapperTests {
         messageMapper.deleteMessage(355);
     }
 
+    @Test
+    public void testUpdateHeader() {
+        userService.updateHeader(153, "http://localhost:8080/community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg");
+    }
+
 
 }

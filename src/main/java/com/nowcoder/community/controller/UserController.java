@@ -12,6 +12,7 @@ import com.nowcoder.community.util.HostHolder;
 //import io.micrometer.common.util.StringUtils;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.catalina.Context;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -103,19 +104,25 @@ public class UserController implements CommunityConstant {
         // http://localhost:8080/community/user/header/xxx.png 从user开始就是自定义的
         User user = hostHolder.getUser();
         String headerUrl = domain + contextPath + "/user/header/" + fileName; // 允许外界访问的web路径
+        System.out.println(headerUrl);
         userService.updateHeader(user.getId(), headerUrl);
         return "redirect:/index";
     }
 
-    @RequestMapping(path = "/header/{fileName}", method = RequestMethod.GET)
+    @RequestMapping(path = "/header/{fileName:.+}", method = RequestMethod.GET)
     // 因为返回的是图片，二进制的输出，因此需要通过流来手动输出，所以方法返回值为void
     public void getHeader(@PathVariable("fileName") String fileName, HttpServletResponse response) {
         // 服务器存放的路径
+        System.out.println(fileName);
         fileName = uploadPath + "/" + fileName;
+        System.out.println(fileName);
         // 文件后缀
         String suffix = fileName.substring(fileName.lastIndexOf("."));
+        System.out.println(suffix);
         // 响应图片
         response.setContentType("image/" + suffix);
+//        response.setContentType(request.getServletContext().getMimeType(fileName));
+
         try ( // java7语法，这里声明的变量会自动放到最后的finally内关闭（前提是有close方法）
                 OutputStream os = response.getOutputStream(); // SpringMVC会自动关闭
                 FileInputStream fis = new FileInputStream(fileName); // 是我们自己定义的，需要我们自己关闭
