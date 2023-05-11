@@ -11,7 +11,7 @@ public interface DiscussPostMapper {
     // 功能：我发布的帖子
     // 首页查询值不会传入userId，也就是传入0，我们不去管它，需要动态sql
     // 分页功能: offset: 每页的行号；limit: 每页最多有几条数据
-    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit);
+    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit, int orderMode);
 
     // 因为需要分页，需要知道一共多少条数据，之后在与limit相除即可，所以也需要一个方法
     // @Param注解用于给参数取别名
@@ -28,5 +28,7 @@ public interface DiscussPostMapper {
     int updateType(int id, int type);
 
     int updateStatus(int id, int status);
+
+    int updateScore(int id, double score);
 
 }

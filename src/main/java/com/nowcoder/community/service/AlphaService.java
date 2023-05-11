@@ -135,9 +135,9 @@ public class AlphaService {
         logger.debug("execute1");
     }
 
-    @Scheduled(initialDelay = 10000, fixedRate = 1000) // 只要有程序在跑就会被调用
-    public void execute2() {
-        logger.debug("execute2");
-    }
+//    @Scheduled(initialDelay = 10000, fixedRate = 1000) // 只要有程序在跑就会被调用
+//    public void execute2() {
+//        logger.debug("execute2");
+//    }
 
 }
