@@ -1,1 +1,20 @@
-2023-05-11 12:13:42,818 WARN [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [B1203BABA63B262219A7357092B0099B]
+2023-05-12 12:13:36,736 WARN [http-nio-8080-exec-5] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/2ad94605a86647a4b9b0bca040ae1ac7.jpg
+2023-05-12 12:14:44,858 WARN [http-nio-8080-exec-3] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/2ad94605a86647a4b9b0bca040ae1ac7.jpg
+2023-05-12 12:15:52,685 WARN [http-nio-8080-exec-2] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:15:52,911 WARN [http-nio-8080-exec-1] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/2ad94605a86647a4b9b0bca040ae1ac7.jpg
+2023-05-12 12:15:58,424 WARN [http-nio-8080-exec-6] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:16:12,668 WARN [http-nio-8080-exec-3] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:16:12,672 WARN [http-nio-8080-exec-1] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/2ad94605a86647a4b9b0bca040ae1ac7.jpg
+2023-05-12 12:16:27,495 WARN [http-nio-8080-exec-9] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:16:30,524 WARN [http-nio-8080-exec-1] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:16:46,322 WARN [http-nio-8080-exec-9] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:16:51,675 WARN [http-nio-8080-exec-1] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:20:19,633 WARN [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [FF7EDAD0A7B3325B21E7C90DEF4CC9E5]
+2023-05-12 12:21:11,593 WARN [http-nio-8080-exec-3] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:21:17,141 WARN [http-nio-8080-exec-10] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:21:22,434 WARN [http-nio-8080-exec-3] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:26:46,743 WARN [http-nio-8080-exec-2] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:27:18,744 WARN [http-nio-8080-exec-8] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:29:07,067 WARN [http-nio-8080-exec-7] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:29:17,813 WARN [http-nio-8080-exec-3] o.s.w.s.PageNotFound [DispatcherServlet.java:1249] No mapping for GET /community/user/header/165ce85c0dde41b8a2611e23e46dac6d.jpg
+2023-05-12 12:29:50,311 WARN [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [FF7EDAD0A7B3325B21E7C90DEF4CC9E5]
