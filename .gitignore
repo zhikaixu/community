@@ -32,6 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 
-application.properties
-application-develop.properties
-application-produce.properties
+**/src/main/resources/application.properties
+**/src/main/resources/application-develop.properties
+**/src/main/resources/application-produce.properties
