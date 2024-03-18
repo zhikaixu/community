@@ -185,6 +185,7 @@ public class LoginController implements CommunityConstant {
             Long expiredTime = (Long) map.get("expiredTime");
             session.setAttribute("captcha", captcha);
             session.setAttribute("expiredTime", expiredTime);
+            System.out.println(captcha);
         }
         return CommunityUtil.getJSONString(0);
     }
